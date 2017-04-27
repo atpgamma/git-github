@@ -1,0 +1,151 @@
+\documentclass{beamer}
+\usetheme[progressbar=frametitle]{metropolis}
+\useoutertheme{metropolis}
+\useinnertheme{metropolis}
+\usefonttheme{metropolis}
+\usecolortheme{spruce}
+
+
+
+
+\title[Git \& Github]{Uvod u Git i Github}
+\author{Stevan Nestorovic}
+\date{}
+
+\begin{document}
+
+
+
+	\begin{frame}
+	\titlepage
+	\end{frame}
+	
+	\begin{frame}{Veceras... }
+		\begin{itemize}
+		\item \textbf{git} - program za verzionisanje softvera
+		\item \textbf{GitHub} - online cuvanje koda, 'drustvena mreza' za programere
+		\item \textbf{FOSS} - free and open source software
+		\end{itemize}
+	\end{frame}	
+				
+	\begin{frame}{Instalacija}
+		U zavisnosti od sistema:
+		\begin{itemize}
+		\item sudo apt install git
+		\item sudo pacman -S git
+		\item dnf -y install git
+		\item https://git-scm.com/download/win, pa next, next, next...
+		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}{git - osnovna upotreba}
+		\begin{itemize}
+			\item git init 
+			\item git status
+			\item git add .
+			\item git commit -m "opis promena"
+			\item git log
+		\end{itemize}
+	\end{frame}
+		
+	\begin{frame}{Grananje}
+		\begin{itemize}
+			\item git branch grana; pravi novu granu
+			\item git checkout grana; prebacivanje na granu
+			\item git checkout -b grana; prethodne dve komande u jednom
+		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}{Spajanje}
+		\begin{itemize}
+			\item git merge grana; spaja trenutnu granu sa odabranom
+			\item git diff
+		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}{Github}
+		\begin{itemize}
+			\item Cuva repozitorijume na netu
+			\item Gomila open-source projekata
+			\item Sistem za pracenje bagova
+			\item I jos gomila drugih stvari
+		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}{Clone, pull, push}
+		\begin{itemize}
+			\item git clone https://github.com/riskmatf/miniparser
+			\item git push origin master
+			\item git pull
+		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}{Remote, fork}
+		\begin{itemize}
+			\item Forkovanje pravi kopiju repo-a na nasem nalogu
+			\item git remote add https:/github.com/something/bla
+		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}{Pull request}
+		\begin{itemize}
+			\item Omogucava da originalnom autoru predlozimo promenu
+			\item Autor ovo mora da odobri
+		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}{Jos kul stvari}
+		\begin{itemize}
+			\item git pages
+			\item gist.github.com
+			\item git book
+			\item education pack
+			\item awesome liste
+		\end{itemize}
+	\end{frame}
+
+	\begin{frame}{FOSS}
+		\begin{itemize}
+		\item softver ciji kod svako moze da cita, menja i dalje distribuira
+		\item programi 50ih, 60ih su bili otvorenog koda
+		\item 70ih, 80ih ovo prestaje da vazi i korisniku se salje samo binarni fajl
+		\item Richard Stallman 1983. osniva GNU pokret, a kasnije i Free Software Foundation
+		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}{Licence}
+		\begin{itemize}
+		\item https://www.smashingmagazine.com/2010/03/a-short-guide-to-open-source-and-similar-licenses/
+		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}{Primeri}
+		\begin{itemize}
+		\item Linux kernel
+		\item BSD
+		\item vim
+		\item Blender
+		\item PopcornTime
+		\item git
+		\item python
+		\item ...
+		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}{Kako doprineti}
+		\begin{itemize}
+		\item Popravljanje bagova
+		\item Pisanje dokumentacije
+		\item Prijavljivanje bagova
+		\item Predlaganje novih opcija za program
+		\item Prevodjenje
+		\item Promovisanje
+		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}{Demo}
+		\begin{center}
+			\textbf{DEMO}
+		\end{center}
+	\end{frame}	
+\end{document}
